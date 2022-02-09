@@ -1,0 +1,22 @@
+################### Discobeat Configuration Example #########################
+
+############################# Discobeat ######################################
+
+discobeat:
+  # Defines how often an event is sent to the output
+  period: 10s
+  archive: true
+  users:
+    - token: "abc"
+      guilds:
+        - id: "12345"
+          channels:
+            - "67890"
+            - "09876"
+        - id: "54321"
+    - username: "me@mydomain.com"
+      password: "abcpass"
+      guilds:
+        - id: "13579"
+        - id: "24680"
+

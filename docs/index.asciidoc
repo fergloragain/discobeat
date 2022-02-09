@@ -1,0 +1,5 @@
+= Discobeat Docs
+
+Welcome to the Discobeat documentation.
+
+

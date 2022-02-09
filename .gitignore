@@ -1,0 +1,8 @@
+/.idea
+/build
+
+.DS_Store
+/discobeat
+/discobeat.test
+*.pyc
+checkpoints.db

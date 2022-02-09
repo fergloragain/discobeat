@@ -1,0 +1,34 @@
+- key: discobeat
+  title: discobeat
+  description:
+  fields:
+    - name: type
+      type: integer
+      description: >
+        Message type
+    - name: username
+      type: text
+      description: >
+        Name of the user who posted the message
+    - name: message
+      type: text
+      description: >
+        Message contents
+    - name: channel
+      type: text
+      description: >
+        Name of the channel that the message was posted in
+    - name: guild
+      type: text
+      description: >
+        Name of the guild that the message was posted in
+    - name: postedAt
+      type: date
+      format: YYYY-MM-DDTHH:MM:SS.milliZ
+      example: 2015-01-24T14:06:05.071Z
+      description: >
+        Timestamp of when the message was posted
+    - name: attachments
+      type: text
+      description: >
+        URL of media content such as images

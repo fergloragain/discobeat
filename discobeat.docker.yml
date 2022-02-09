@@ -1,0 +1,18 @@
+discobeat:
+  period: 1s
+  archive: false
+  users:
+    - token: "dockerusertoken"
+      guilds:
+        - id: "12345"
+          channels:
+            - "67890"
+            - "09876"
+        - id: "54321"
+processors:
+- add_cloud_metadata: ~
+
+output.elasticsearch:
+  hosts: '${ELASTICSEARCH_HOSTS:elasticsearch:9200}'
+  username: '${ELASTICSEARCH_USERNAME:}'
+  password: '${ELASTICSEARCH_PASSWORD:}'
